@@ -14,7 +14,7 @@ def generate_final_data(data_dir="data", save_dir="data.csv"):
                     df = pd.read_csv(os.path.join(root, file), index_col='ISIN')
                     data = df if data is None else pd.concat([data, df], ignore_index=False, axis=0)
     logging.log(60, "Finished processing")
-    data['Coupon'] = pd.to_numeric(data['Coupon'].astype('str').str.replace('%', ''), errors='coerce')
+    data['Coupon'] = data['Coupon'].str.rstrip('%').astype('float')
     data['Maturity Date'] = pd.to_datetime(data['Maturity Date'], format='mixed')
     data['Issue Date'] = pd.to_datetime(data['Issue Date'], format='mixed')
     data['Bond Days'] = (data['Maturity Date'] - data['Issue Date']).dt.days
