@@ -11,16 +11,16 @@ def generate_final_data(data_dir="data", save_dir="data.csv"):
             for file in files:
                 logging.log(60, "Processing file: {}".format(file))
                 if file.endswith(".csv") and file != "data.csv":
-                    df = pd.read_csv(os.path.join(root, file))
-                    data = df if data is None else pd.concat([data, df], ignore_index=True, axis=0)
+                    df = pd.read_csv(os.path.join(root, file), index_col='ISIN')
+                    data = df if data is None else pd.concat([data, df], ignore_index=False, axis=0)
     logging.log(60, "Finished processing")
-    data['Maturity Date'] = pd.to_datetime(data['Maturity Date'])
-    data['Issue Date'] = pd.to_datetime(data['Issue Date'])
+    data['Coupon'] = pd.to_numeric(data['Coupon'].astype('str').str.replace('%', ''), errors='coerce')
+    data['Maturity Date'] = pd.to_datetime(data['Maturity Date'], format='mixed')
+    data['Issue Date'] = pd.to_datetime(data['Issue Date'], format='mixed')
     data['Bond Days'] = (data['Maturity Date'] - data['Issue Date']).dt.days
     data['Bond Months'] = data['Bond Days']/30
     data['Bond Years'] = data['Bond Months']/12
-    data['ISIN'] = data['ISIN'].str.upper()
-    data.to_csv(os.path.join(data_dir, save_dir), index=False)
+    data.to_csv(os.path.join(data_dir, save_dir))
 
 
 if __name__ == "__main__":
