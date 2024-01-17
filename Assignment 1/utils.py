@@ -1,7 +1,8 @@
-from collections import Counter
 from datetime import datetime
-import seaborn as sns
+
+import numpy as np
 import pandas as pd
+import seaborn as sns
 from matplotlib import pyplot as plt
 from matplotlib.cm import ScalarMappable
 from matplotlib.colors import Normalize
@@ -35,11 +36,38 @@ def plot_coupon_issue(df):
     plt.show()
 
 
+def get_ytm(df):
+    return df["Coupon Payment"] * 2 + (df["Par Value"] - df["Bond Price"]) / (df['Compounding Periods']) / ((df["Par "
+                                                                                                                "Value"] - df["Bond Price"]) / 2)
+
+
 def get_bonds(df):
     start_date = pd.to_datetime('2024-02-05', format="%Y-%m-%d")
-    end_date = start_date + pd.DateOffset(years=5) + pd.DateOffset(months=6)
+    end_date = start_date + pd.DateOffset(years=5)
     df = df[(df['Maturity Date'] > start_date) & (df['Maturity Date'] <= end_date)]
+
+    df["Par Value"] = 1000
+    df["Coupon Payment"] = df["Par Value"] * df["Coupon"] / 200
+
+    number_days_last_pay = (start_date - pd.to_datetime("2023-12-01", format="%Y-%m-%d")).days
+    df["Dirty Price"] = (number_days_last_pay / 365) * df["Coupon"] + df["Bond Price"]
+    df["Compounding Periods"] = pd.to_numeric(((df["Maturity Date"] - df["Issue Date"]).dt.days / 360)*2)
+
+    df["YTM"] = get_ytm(df)
+    df["Days to Maturity"] = (df['Maturity Date'] - start_date).dt.days
+    df["Months to Maturity"] = df["Days to Maturity"] / 30
+
     return df
+
+
+def zero_coupon_bonds(df):
+    zero_df = df[df["Months to Maturity"] < 6.0]
+    non_zero_df = df[df["Months to Maturity"] >= 6.0]
+    zero_df["Zero_Yield"] = np.log((zero_df["Par Value"] + zero_df["Coupon Payment"]) / zero_df["Dirty Price"]) / zero_df["Months to Maturity"]
+
+    df = pd.concat([non_zero_df, zero_df], ignore_index=True, axis=0)
+    return df
+
 
 def generate_range():
     start_date = pd.to_datetime('2024-02-05', format="%Y-%m-%d")
@@ -69,6 +97,7 @@ def plot_bonds_price(df):
 
     plt.grid(True)
     plt.show()
+
 
 def years_to_maturity(issue_date, maturity_date):
     issue_date = datetime.strptime(issue_date, '%m/%d/%Y')

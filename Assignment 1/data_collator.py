@@ -15,7 +15,7 @@ def generate_final_data(data_dir="data", save_dir="data.csv"):
                     data = df if data is None else pd.concat([data, df], ignore_index=True, axis=0)
     logging.log(60, "Finished processing")
     data['Coupon'] = data['Coupon'].str.rstrip('%').astype('float')
-    data['Bond Price'] = (data['Ask'] + data['Bid']) / 2
+    data['Bond Price'] = data['Bid']
     data.to_csv(os.path.join(data_dir, save_dir), index=False)
 
 
