@@ -75,7 +75,7 @@ def crawler(url):
         soup = BeautifulSoup(response.text, 'html.parser')
         return scrape_data(soup)
     else:
-        raise ValueError("No page found")
+        return None
 
 
 def scrape_market_insider(save_path="data"):
