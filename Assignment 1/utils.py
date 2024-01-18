@@ -37,8 +37,10 @@ def plot_coupon_issue(df):
 
 
 def get_ytm(df):
-    return df["Coupon Payment"] * 2 + (df["Par Value"] - df["Bond Price"]) / (df['Compounding Periods']) / ((df["Par "
-                                                                                                                "Value"] - df["Bond Price"]) / 2)
+    _sum = (df["Par Value"] + df["Bond Price"]) / pd.to_numeric(df["Compounding Periods"])
+    _diff = (df["Par Value"] - df["Bond Price"]) / 2
+    _coupon = df["Coupon Payment"] * 2
+    return (_coupon + _sum) / _diff
 
 
 def get_bonds(df):
@@ -51,7 +53,8 @@ def get_bonds(df):
 
     number_days_last_pay = (start_date - pd.to_datetime("2023-12-01", format="%Y-%m-%d")).days
     df["Dirty Price"] = (number_days_last_pay / 365) * df["Coupon"] + df["Bond Price"]
-    df["Compounding Periods"] = pd.to_numeric(((df["Maturity Date"] - df["Issue Date"]).dt.days / 360)*2)
+    df["Compounding Periods"] = ((df["Maturity Date"] - df["Issue Date"]).dt.days / 360)*2
+    df["Compounding Periods"] = df["Compounding Periods"].apply(np.ceil)
 
     df["YTM"] = get_ytm(df)
     df["Days to Maturity"] = (df['Maturity Date'] - start_date).dt.days

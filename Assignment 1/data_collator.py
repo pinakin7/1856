@@ -10,7 +10,7 @@ def generate_final_data(data_dir="data", save_dir="data.csv"):
         if files:
             for file in files:
                 logging.log(60, "Processing file: {}".format(file))
-                if file.endswith(".csv") and file not in {'data.csv', 'cleaned_data.csv', 'final_data.csv'}:
+                if file.endswith(".csv") and file not in {'data.csv', 'cleaned_data.csv', 'final_data.csv', 'final.csv'}:
                     df = pd.read_csv(os.path.join(root, file))
                     data = df if data is None else pd.concat([data, df], ignore_index=True, axis=0)
     logging.log(60, "Finished processing")
