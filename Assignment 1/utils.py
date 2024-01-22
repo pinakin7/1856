@@ -2,6 +2,7 @@ from datetime import datetime
 
 import numpy as np
 import pandas as pd
+import scipy
 import seaborn as sns
 from matplotlib import pyplot as plt
 from matplotlib.cm import ScalarMappable
@@ -43,6 +44,19 @@ def get_ytm(df):
     return (_coupon + _sum) / _diff
 
 
+def interpolation(x1, x2, y1, y2, x):
+    return y1 + (x - x1) * ((y2 - y1) / (x2 - x1))
+
+
+def get_payments(year):
+    year = round(year, 2)
+    payments = {year}
+    while year > 0.5:
+        year -= 0.5
+        payments.add(round(year, 2))
+    return payments
+
+
 def get_bonds(df):
     start_date = pd.to_datetime('2024-02-05', format="%Y-%m-%d")
     end_date = start_date + pd.DateOffset(years=5)
@@ -51,9 +65,9 @@ def get_bonds(df):
     df["Par Value"] = 1000
     df["Coupon Payment"] = df["Par Value"] * df["Coupon"] / 200
 
-    number_days_last_pay = (start_date - pd.to_datetime("2023-12-01", format="%Y-%m-%d")).days
-    df["Dirty Price"] = (number_days_last_pay / 365) * df["Coupon"] + df["Bond Price"]
-    df["Compounding Periods"] = ((df["Maturity Date"] - df["Issue Date"]).dt.days / 360)*2
+    number_days_last_pay = (start_date - pd.to_datetime("2023-9-01", format="%Y-%m-%d")).days
+    df["Dirty Price"] = (number_days_last_pay / 365) * 2 * df["Coupon"] + df["Bond Price"]
+    df["Compounding Periods"] = ((df["Maturity Date"] - df["Issue Date"]).dt.days / 360) * 2
     df["Compounding Periods"] = df["Compounding Periods"].apply(np.ceil)
 
     df["YTM"] = get_ytm(df)
@@ -63,10 +77,33 @@ def get_bonds(df):
     return df
 
 
+def binary_search(lst, target):
+    left, right = 0, len(lst) - 1
+    while left <= right:
+        mid = left + (right - left) // 2
+        if lst[mid] == target:
+            return mid
+        elif lst[mid] < target:
+            left = mid + 1
+        else:
+            right = mid - 1
+    return left - 1
+
+
+def get_interpolation(rates, time):
+    x = list(rates.keys())
+    idx = binary_search(sorted(x), time)
+    x1 = x[idx]
+    x2 = x[idx + 1 if idx < len(x) - 1 else idx - 1]
+    y1, y2 = rates[x1], rates[x2]
+    return interpolation(x1, x2, y1, y2, time)
+
+
 def zero_coupon_bonds(df):
     zero_df = df[df["Months to Maturity"] < 6.0]
     non_zero_df = df[df["Months to Maturity"] >= 6.0]
-    zero_df["Zero_Yield"] = np.log((zero_df["Par Value"] + zero_df["Coupon Payment"]) / zero_df["Dirty Price"]) / zero_df["Months to Maturity"]
+    zero_df["Zero_Yield"] = np.log((zero_df["Par Value"] + zero_df["Coupon Payment"]) / zero_df["Dirty Price"]) / \
+                            zero_df["Months to Maturity"]
 
     df = pd.concat([non_zero_df, zero_df], ignore_index=True, axis=0)
     return df
