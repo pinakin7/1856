@@ -157,3 +157,20 @@ def calculate_semi_annual_coupon_rate(coupon_rate):
 
 def calculate_semi_annual_coupon(coupon_rate, face_value):
     return coupon_rate * face_value
+
+
+def closest_values(target, lst):
+    sorted_list = sorted(lst, key=lambda x: abs(x - target))
+
+    closest_greater = 1e10
+    closest_smaller = 0
+
+    for value in sorted_list:
+        if value > target:
+            closest_greater = min(value, closest_greater)
+
+    for value in reversed(sorted_list):
+        if value < target:
+            closest_smaller = max(value, closest_smaller)
+
+    return closest_smaller, closest_greater
