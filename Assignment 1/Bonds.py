@@ -10,7 +10,7 @@ def linear_interpolation(time_1, yield_1, time_2, yield_2, time):
 
 
 class Bond:
-    start_date = pd.to_datetime('2023-10-01', format='%Y-%m-%d')
+    start_date = pd.to_datetime('2023-09-03', format='%Y-%m-%d')
 
     def __init__(self, data):
         self.isin = data["ISIN"]
@@ -21,7 +21,7 @@ class Bond:
         self.maturity = data["Maturity Date"]
         self.coupon_payment = self.coupon * self.par / 200
         self.number_days_last_payment = 1
-        self.maturity_months = math.floor((self.maturity - self.start_date).days / 30)
+        self.maturity_days = int((self.maturity - self.start_date).days - 1)
         self.dirty_price = self.get_dirty_price()
         self.payments = sorted(self.get_payments())
 
@@ -29,11 +29,11 @@ class Bond:
         return (self.number_days_last_payment / 360) * self.coupon + self.price
 
     def get_payments(self) -> set[Any]:
-        payments = {self.maturity_months}
-        m = self.maturity_months
-        while m > 6:
-            m -= 6
-            payments.add(m)
+        payments = {self.maturity_days}
+        days = self.maturity_days
+        while days > 180:
+            days -= 180
+            payments.add(days)
         return payments
 
     def __repr__(self):
@@ -46,7 +46,7 @@ class Bond:
                f"maturity={self.maturity!r}, " \
                f"coupon_payment={self.coupon_payment!r}, " \
                f"number_days_last_payment={self.number_days_last_payment!r}, " \
-               f"maturity_months={self.maturity_months!r}, " \
+               f"maturity_days={self.maturity_days!r}, " \
                f"dirty_price={self.dirty_price!r}, " \
                f"payments={self.payments!r})"
 
@@ -55,7 +55,7 @@ class Bonds:
     def __init__(self, df):
         self._bonds = list()
         self._yield = {0: 0}
-        self.forward_rates = [[0]*12*5]*5
+        self.forward_rates = [[0]*360*5]*5
         self.get_bonds(df)
         self.bootstrap_yield_curve()
         self.interpolate_years()
@@ -65,18 +65,22 @@ class Bonds:
         # calculate the yield curve via bootstrapping and linear interpolation whenever required
         for bond in self._bonds:
             # checking for the zero coupon bond
+            print("Bootstrapping for {}".format(bond.isin))
             if len(bond.payments) == 1:
-                self._yield[bond.payments[0]] = (bond.payments[0] / 12) * np.log(bond.par / bond.dirty_price)
+                self._yield[bond.payments[0]] = (bond.payments[0] / 360) * np.log(bond.par / bond.dirty_price)
             else:
                 _price = bond.dirty_price
                 for year in bond.payments:
+                    print("Bootstrapping for day: {}".format(year))
                     if year != bond.payments[-1]:
                         if year not in self._yield.keys():
                             y1, y2 = closest_values(year, self._yield.keys())
+                            print(y1, y2)
                             self._yield[year] = linear_interpolation(y1, self._yield[y1], y2, self._yield[y2], year)
-                        _price -= bond.coupon_payment * np.exp(-self._yield[year] * (year / 12))
+                        _price -= bond.coupon_payment * np.exp(-self._yield[year] * (year / 360))
                     else:
-                        self._yield[year] = (year / 12) * np.log(bond.par / bond.dirty_price)
+                        self._yield[year] = (year / 360) * np.log(bond.par / bond.dirty_price)
+            print(self._yield)
 
     def get_bonds(self, df) -> None:
         for idx in df.index:
@@ -84,12 +88,12 @@ class Bonds:
 
     def get_forward_rate(self):
         year_1 = self._yield[12]
-        for day in range(12*4):
-            self.forward_rates[1][day] = (self._yield[12+day]*(12+day) - year_1*12)/day
+        for day in range(1,4*360):
+            self.forward_rates[1][day] = (self._yield[360+day]*(360+day) - year_1*360)/day
 
 
     def interpolate_years(self):
-        for year in range(1,59):
+        for year in range(1,360*5):
             y1, y2 = closest_values(year, self._yield.keys())
             self._yield[year] = linear_interpolation(y1, self._yield[y1], y2, self._yield[y2], year)
 
