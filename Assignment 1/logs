@@ -1,0 +1,954 @@
+January 08 2024.csv
+Bootstrapping for CA135087J546 with payments [1]
+{0: 0, 1: 0.0005363328512567048}
+Bootstrapping for CA135087J546 with payments [1]
+{0: 0, 1: 0.0005363328512567048}
+Bootstrapping for CA135087J967 with payments [1, 7]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+{0: 0, 1: 0.0005363328512567048, 7: 0.012834538863432252}
+Bootstrapping for CA135087K528 with payments [1, 7, 13]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+{0: 0, 1: 0.0005363328512567048, 7: 0.012834538863432252, 13: 0.04099975058831377}
+Bootstrapping for CA135087K940 with payments [2, 8, 14, 20]
+Bootstrapping for month: 2
+1 7
+Bootstrapping for month: 8
+7 0
+Bootstrapping for month: 14
+13 0
+Bootstrapping for month: 20
+{0: 0, 1: 0.0005363328512567048, 7: 0.012834538863432252, 13: 0.04099975058831377, 2: 0.002586033853285963, 8: 0.014668044415351146, 14: 0.0441535775566456, 20: 0.09740220885746668}
+Bootstrapping for CA135087L518 with payments [2, 8, 14, 20, 26]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+{0: 0, 1: 0.0005363328512567048, 7: 0.012834538863432252, 13: 0.04099975058831377, 2: 0.002586033853285963, 8: 0.014668044415351146, 14: 0.0441535775566456, 20: 0.09740220885746668, 26: 0.1629836566993752}
+Bootstrapping for CA135087L930 with payments [2, 8, 14, 20, 26, 32]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+{0: 0, 1: 0.0005363328512567048, 7: 0.012834538863432252, 13: 0.04099975058831377, 2: 0.002586033853285963, 8: 0.014668044415351146, 14: 0.0441535775566456, 20: 0.09740220885746668, 26: 0.1629836566993752, 32: 0.18317561593405643}
+Bootstrapping for CA135087M847 with payments [2, 8, 14, 20, 26, 32, 38]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+{0: 0, 1: 0.0005363328512567048, 7: 0.012834538863432252, 13: 0.04099975058831377, 2: 0.002586033853285963, 8: 0.014668044415351146, 14: 0.0441535775566456, 20: 0.09740220885746668, 26: 0.1629836566993752, 32: 0.18317561593405643, 38: 0.22924326606921888}
+Bootstrapping for CA135087N837 with payments [2, 8, 14, 20, 26, 32, 38, 44]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+{0: 0, 1: 0.0005363328512567048, 7: 0.012834538863432252, 13: 0.04099975058831377, 2: 0.002586033853285963, 8: 0.014668044415351146, 14: 0.0441535775566456, 20: 0.09740220885746668, 26: 0.1629836566993752, 32: 0.18317561593405643, 38: 0.22924326606921888, 44: 0.10528823884241659}
+Bootstrapping for CA135087P576 with payments [2, 8, 14, 20, 26, 32, 38, 44, 50]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+Bootstrapping for month: 50
+{0: 0, 1: 0.0005363328512567048, 7: 0.012834538863432252, 13: 0.04099975058831377, 2: 0.002586033853285963, 8: 0.014668044415351146, 14: 0.0441535775566456, 20: 0.09740220885746668, 26: 0.1629836566993752, 32: 0.18317561593405643, 38: 0.22924326606921888, 44: 0.10528823884241659, 50: 0.004746081752406698}
+Bootstrapping for CA135087Q491 with payments [2, 8, 14, 20, 26, 32, 38, 44, 50, 56]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+Bootstrapping for month: 50
+Bootstrapping for month: 56
+{0: 0, 1: 0.0005363328512567048, 7: 0.012834538863432252, 13: 0.04099975058831377, 2: 0.002586033853285963, 8: 0.014668044415351146, 14: 0.0441535775566456, 20: 0.09740220885746668, 26: 0.1629836566993752, 32: 0.18317561593405643, 38: 0.22924326606921888, 44: 0.10528823884241659, 50: 0.004746081752406698, 56: 0.03828976875297111}
+January 09 2024.csv
+Bootstrapping for CA135087J546 with payments [1]
+{0: 0, 1: 0.0005311493662529189}
+Bootstrapping for CA135087J967 with payments [1, 7]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+{0: 0, 1: 0.0005311493662529189, 7: 0.012750696486955374}
+Bootstrapping for CA135087K528 with payments [1, 7, 13]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+{0: 0, 1: 0.0005311493662529189, 7: 0.012750696486955374, 13: 0.04073733230160042}
+Bootstrapping for CA135087K940 with payments [2, 8, 14, 20]
+Bootstrapping for month: 2
+1 7
+Bootstrapping for month: 8
+7 0
+Bootstrapping for month: 14
+13 0
+Bootstrapping for month: 20
+{0: 0, 1: 0.0005311493662529189, 7: 0.012750696486955374, 13: 0.04073733230160042, 2: 0.0025677405530366614, 8: 0.014572224556520427, 14: 0.04387097324787737, 20: 0.09649669237999997}
+Bootstrapping for CA135087L518 with payments [2, 8, 14, 20, 26]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+{0: 0, 1: 0.0005311493662529189, 7: 0.012750696486955374, 13: 0.04073733230160042, 2: 0.0025677405530366614, 8: 0.014572224556520427, 14: 0.04387097324787737, 20: 0.09649669237999997, 26: 0.16156810521811094}
+Bootstrapping for CA135087L930 with payments [2, 8, 14, 20, 26, 32]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+{0: 0, 1: 0.0005311493662529189, 7: 0.012750696486955374, 13: 0.04073733230160042, 2: 0.0025677405530366614, 8: 0.014572224556520427, 14: 0.04387097324787737, 20: 0.09649669237999997, 26: 0.16156810521811094, 32: 0.18139202431792148}
+Bootstrapping for CA135087M847 with payments [2, 8, 14, 20, 26, 32, 38]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+{0: 0, 1: 0.0005311493662529189, 7: 0.012750696486955374, 13: 0.04073733230160042, 2: 0.0025677405530366614, 8: 0.014572224556520427, 14: 0.04387097324787737, 20: 0.09649669237999997, 26: 0.16156810521811094, 32: 0.18139202431792148, 38: 0.22608243001328068}
+Bootstrapping for CA135087N837 with payments [2, 8, 14, 20, 26, 32, 38, 44]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+{0: 0, 1: 0.0005311493662529189, 7: 0.012750696486955374, 13: 0.04073733230160042, 2: 0.0025677405530366614, 8: 0.014572224556520427, 14: 0.04387097324787737, 20: 0.09649669237999997, 26: 0.16156810521811094, 32: 0.18139202431792148, 38: 0.22608243001328068, 44: 0.1016556269662705}
+Bootstrapping for CA135087P576 with payments [2, 8, 14, 20, 26, 32, 38, 44, 50]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+Bootstrapping for month: 50
+{0: 0, 1: 0.0005311493662529189, 7: 0.012750696486955374, 13: 0.04073733230160042, 2: 0.0025677405530366614, 8: 0.014572224556520427, 14: 0.04387097324787737, 20: 0.09649669237999997, 26: 0.16156810521811094, 32: 0.18139202431792148, 38: 0.22608243001328068, 44: 0.1016556269662705, 50: 0.00025025776557334776}
+Bootstrapping for CA135087Q491 with payments [2, 8, 14, 20, 26, 32, 38, 44, 50, 56]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+Bootstrapping for month: 50
+Bootstrapping for month: 56
+{0: 0, 1: 0.0005311493662529189, 7: 0.012750696486955374, 13: 0.04073733230160042, 2: 0.0025677405530366614, 8: 0.014572224556520427, 14: 0.04387097324787737, 20: 0.09649669237999997, 26: 0.16156810521811094, 32: 0.18139202431792148, 38: 0.22608243001328068, 44: 0.1016556269662705, 50: 0.00025025776557334776, 56: 0.031395059584147955}
+January 10 2024.csv
+Bootstrapping for CA135087J546 with payments [1]
+{0: 0, 1: 0.0005093822494014572}
+Bootstrapping for CA135087J967 with payments [1, 7]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+{0: 0, 1: 0.0005093822494014572, 7: 0.01260769906301058}
+Bootstrapping for CA135087K528 with payments [1, 7, 13]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+{0: 0, 1: 0.0005093822494014572, 7: 0.01260769906301058, 13: 0.040028034179320104}
+Bootstrapping for CA135087K940 with payments [2, 8, 14, 20]
+Bootstrapping for month: 2
+1 7
+Bootstrapping for month: 8
+7 0
+Bootstrapping for month: 14
+13 0
+Bootstrapping for month: 20
+{0: 0, 1: 0.0005093822494014572, 7: 0.01260769906301058, 13: 0.040028034179320104, 2: 0.0025257683850029777, 8: 0.014408798929154948, 14: 0.0431071137315755, 20: 0.0959438350566411}
+Bootstrapping for CA135087L518 with payments [2, 8, 14, 20, 26]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+{0: 0, 1: 0.0005093822494014572, 7: 0.01260769906301058, 13: 0.040028034179320104, 2: 0.0025257683850029777, 8: 0.014408798929154948, 14: 0.0431071137315755, 20: 0.0959438350566411, 26: 0.16108566857484316}
+Bootstrapping for CA135087L930 with payments [2, 8, 14, 20, 26, 32]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+{0: 0, 1: 0.0005093822494014572, 7: 0.01260769906301058, 13: 0.040028034179320104, 2: 0.0025257683850029777, 8: 0.014408798929154948, 14: 0.0431071137315755, 20: 0.0959438350566411, 26: 0.16108566857484316, 32: 0.17989346713268378}
+Bootstrapping for CA135087M847 with payments [2, 8, 14, 20, 26, 32, 38]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+{0: 0, 1: 0.0005093822494014572, 7: 0.01260769906301058, 13: 0.040028034179320104, 2: 0.0025257683850029777, 8: 0.014408798929154948, 14: 0.0431071137315755, 20: 0.0959438350566411, 26: 0.16108566857484316, 32: 0.17989346713268378, 38: 0.223937864538618}
+Bootstrapping for CA135087N837 with payments [2, 8, 14, 20, 26, 32, 38, 44]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+{0: 0, 1: 0.0005093822494014572, 7: 0.01260769906301058, 13: 0.040028034179320104, 2: 0.0025257683850029777, 8: 0.014408798929154948, 14: 0.0431071137315755, 20: 0.0959438350566411, 26: 0.16108566857484316, 32: 0.17989346713268378, 38: 0.223937864538618, 44: 0.09876967269358229}
+Bootstrapping for CA135087P576 with payments [2, 8, 14, 20, 26, 32, 38, 44, 50]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+Bootstrapping for month: 50
+{0: 0, 1: 0.0005093822494014572, 7: 0.01260769906301058, 13: 0.040028034179320104, 2: 0.0025257683850029777, 8: 0.014408798929154948, 14: 0.0431071137315755, 20: 0.0959438350566411, 26: 0.16108566857484316, 32: 0.17989346713268378, 38: 0.223937864538618, 44: 0.09876967269358229, 50: -0.002194799036728696}
+Bootstrapping for CA135087Q491 with payments [2, 8, 14, 20, 26, 32, 38, 44, 50, 56]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+Bootstrapping for month: 50
+Bootstrapping for month: 56
+{0: 0, 1: 0.0005093822494014572, 7: 0.01260769906301058, 13: 0.040028034179320104, 2: 0.0025257683850029777, 8: 0.014408798929154948, 14: 0.0431071137315755, 20: 0.0959438350566411, 26: 0.16108566857484316, 32: 0.17989346713268378, 38: 0.223937864538618, 44: 0.09876967269358229, 50: -0.002194799036728696, 56: 0.029591137291751748}
+January 11 2024.csv
+Bootstrapping for CA135087J546 with payments [1]
+{0: 0, 1: 0.0004959102162764961}
+Bootstrapping for CA135087J967 with payments [1, 7]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+{0: 0, 1: 0.0004959102162764961, 7: 0.012523889281490229}
+Bootstrapping for CA135087K528 with payments [1, 7, 13]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+{0: 0, 1: 0.0004959102162764961, 7: 0.012523889281490229, 13: 0.03965417112857696}
+Bootstrapping for CA135087K940 with payments [1, 7, 13, 19]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+Bootstrapping for month: 19
+{0: 0, 1: 0.0004959102162764961, 7: 0.012523889281490229, 13: 0.03965417112857696, 19: 0.09179272822413433}
+Bootstrapping for CA135087L518 with payments [2, 8, 14, 20, 26]
+Bootstrapping for month: 2
+1 7
+Bootstrapping for month: 8
+7 13
+Bootstrapping for month: 14
+13 0
+Bootstrapping for month: 20
+19 0
+Bootstrapping for month: 26
+{0: 0, 1: 0.0004959102162764961, 7: 0.012523889281490229, 13: 0.03965417112857696, 19: 0.09179272822413433, 2: 0.002500573393812118, 8: 0.01704560292267135, 14: 0.04270449198462134, 20: 0.09662392444645719, 26: 0.16200206617702603}
+Bootstrapping for CA135087M847 with payments [2, 8, 14, 20, 26, 32, 38]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+26 0
+Bootstrapping for month: 38
+{0: 0, 1: 0.0004959102162764961, 7: 0.012523889281490229, 13: 0.03965417112857696, 19: 0.09179272822413433, 2: 0.002500573393812118, 8: 0.01704560292267135, 14: 0.04270449198462134, 20: 0.09662392444645719, 26: 0.16200206617702603, 32: 0.19938715837172435, 38: 0.22719986884127047}
+Bootstrapping for CA135087N837 with payments [2, 8, 14, 20, 26, 32, 38, 44]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+{0: 0, 1: 0.0004959102162764961, 7: 0.012523889281490229, 13: 0.03965417112857696, 19: 0.09179272822413433, 2: 0.002500573393812118, 8: 0.01704560292267135, 14: 0.04270449198462134, 20: 0.09662392444645719, 26: 0.16200206617702603, 32: 0.19938715837172435, 38: 0.22719986884127047, 44: 0.10331905087718876}
+Bootstrapping for CA135087P576 with payments [2, 8, 14, 20, 26, 32, 38, 44, 50]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+Bootstrapping for month: 50
+{0: 0, 1: 0.0004959102162764961, 7: 0.012523889281490229, 13: 0.03965417112857696, 19: 0.09179272822413433, 2: 0.002500573393812118, 8: 0.01704560292267135, 14: 0.04270449198462134, 20: 0.09662392444645719, 26: 0.16200206617702603, 32: 0.19938715837172435, 38: 0.22719986884127047, 44: 0.10331905087718876, 50: 0.003960385520736804}
+Bootstrapping for CA135087Q491 with payments [2, 8, 14, 20, 26, 32, 38, 44, 50, 56]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+Bootstrapping for month: 50
+Bootstrapping for month: 56
+{0: 0, 1: 0.0004959102162764961, 7: 0.012523889281490229, 13: 0.03965417112857696, 19: 0.09179272822413433, 2: 0.002500573393812118, 8: 0.01704560292267135, 14: 0.04270449198462134, 20: 0.09662392444645719, 26: 0.16200206617702603, 32: 0.19938715837172435, 38: 0.22719986884127047, 44: 0.10331905087718876, 50: 0.003960385520736804, 56: 0.03703601178001876}
+January 12 2024.csv
+Bootstrapping for CA135087J546 with payments [1]
+{0: 0, 1: 0.0005156008454940824}
+Bootstrapping for CA135087J967 with payments [1, 7]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+{0: 0, 1: 0.0005156008454940824, 7: 0.01285426823285522}
+Bootstrapping for CA135087K528 with payments [1, 7, 13]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+{0: 0, 1: 0.0005156008454940824, 7: 0.01285426823285522, 13: 0.03883398611902406}
+Bootstrapping for CA135087K940 with payments [1, 7, 13, 19]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+Bootstrapping for month: 19
+{0: 0, 1: 0.0005156008454940824, 7: 0.01285426823285522, 13: 0.03883398611902406, 19: 0.0900967367642314}
+Bootstrapping for CA135087L518 with payments [1, 7, 13, 19, 25]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+Bootstrapping for month: 19
+Bootstrapping for month: 25
+{0: 0, 1: 0.0005156008454940824, 7: 0.01285426823285522, 13: 0.03883398611902406, 19: 0.0900967367642314, 25: 0.15261884994367028}
+Bootstrapping for CA135087L518 with payments [1, 7, 13, 19, 25]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+Bootstrapping for month: 19
+Bootstrapping for month: 25
+{0: 0, 1: 0.0005156008454940824, 7: 0.01285426823285522, 13: 0.03883398611902406, 19: 0.0900967367642314, 25: 0.15261884994367028}
+Bootstrapping for CA135087L930 with payments [2, 8, 14, 20, 26, 32]
+Bootstrapping for month: 2
+1 7
+Bootstrapping for month: 8
+7 13
+Bootstrapping for month: 14
+13 0
+Bootstrapping for month: 20
+19 0
+Bootstrapping for month: 26
+25 0
+Bootstrapping for month: 32
+{0: 0, 1: 0.0005156008454940824, 7: 0.01285426823285522, 13: 0.03883398611902406, 19: 0.0900967367642314, 25: 0.15261884994367028, 2: 0.002572045410054272, 8: 0.017184221213883362, 14: 0.04182121582048745, 20: 0.09483867027813832, 26: 0.1587236039414171, 32: 0.17718243065680594}
+Bootstrapping for CA135087M847 with payments [2, 8, 14, 20, 26, 32, 38]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+{0: 0, 1: 0.0005156008454940824, 7: 0.01285426823285522, 13: 0.03883398611902406, 19: 0.0900967367642314, 25: 0.15261884994367028, 2: 0.002572045410054272, 8: 0.017184221213883362, 14: 0.04182121582048745, 20: 0.09483867027813832, 26: 0.1587236039414171, 32: 0.17718243065680594, 38: 0.2210025875032704}
+Bootstrapping for CA135087N837 with payments [2, 8, 14, 20, 26, 32, 38, 44]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+{0: 0, 1: 0.0005156008454940824, 7: 0.01285426823285522, 13: 0.03883398611902406, 19: 0.0900967367642314, 25: 0.15261884994367028, 2: 0.002572045410054272, 8: 0.017184221213883362, 14: 0.04182121582048745, 20: 0.09483867027813832, 26: 0.1587236039414171, 32: 0.17718243065680594, 38: 0.2210025875032704, 44: 0.0959736517056522}
+Bootstrapping for CA135087P576 with payments [2, 8, 14, 20, 26, 32, 38, 44, 50]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+Bootstrapping for month: 50
+{0: 0, 1: 0.0005156008454940824, 7: 0.01285426823285522, 13: 0.03883398611902406, 19: 0.0900967367642314, 25: 0.15261884994367028, 2: 0.002572045410054272, 8: 0.017184221213883362, 14: 0.04182121582048745, 20: 0.09483867027813832, 26: 0.1587236039414171, 32: 0.17718243065680594, 38: 0.2210025875032704, 44: 0.0959736517056522, 50: -0.005036085353907097}
+Bootstrapping for CA135087Q491 with payments [2, 8, 14, 20, 26, 32, 38, 44, 50, 56]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+Bootstrapping for month: 50
+Bootstrapping for month: 56
+{0: 0, 1: 0.0005156008454940824, 7: 0.01285426823285522, 13: 0.03883398611902406, 19: 0.0900967367642314, 25: 0.15261884994367028, 2: 0.002572045410054272, 8: 0.017184221213883362, 14: 0.04182121582048745, 20: 0.09483867027813832, 26: 0.1587236039414171, 32: 0.17718243065680594, 38: 0.2210025875032704, 44: 0.0959736517056522, 50: -0.005036085353907097, 56: 0.026909012124192416}
+January 13 2024.csv
+Bootstrapping for CA135087J546 with payments [1]
+{0: 0, 1: 0.0005021278070872873}
+Bootstrapping for CA135087J967 with payments [1, 7]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+{0: 0, 1: 0.0005021278070872873, 7: 0.012592908226566824}
+Bootstrapping for CA135087K528 with payments [1, 7, 13]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+{0: 0, 1: 0.0005021278070872873, 7: 0.012592908226566824, 13: 0.03823745525561894}
+Bootstrapping for CA135087K940 with payments [1, 7, 13, 19]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+Bootstrapping for month: 19
+{0: 0, 1: 0.0005021278070872873, 7: 0.012592908226566824, 13: 0.03823745525561894, 19: 0.08890366186829372}
+Bootstrapping for CA135087L518 with payments [1, 7, 13, 19, 25]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+Bootstrapping for month: 19
+Bootstrapping for month: 25
+{0: 0, 1: 0.0005021278070872873, 7: 0.012592908226566824, 13: 0.03823745525561894, 19: 0.08890366186829372, 25: 0.15193175061583622}
+Bootstrapping for CA135087L930 with payments [2, 8, 14, 20, 26, 32]
+Bootstrapping for month: 2
+1 7
+Bootstrapping for month: 8
+7 13
+Bootstrapping for month: 14
+13 0
+Bootstrapping for month: 20
+19 0
+Bootstrapping for month: 26
+25 0
+Bootstrapping for month: 32
+{0: 0, 1: 0.0005021278070872873, 7: 0.012592908226566824, 13: 0.03823745525561894, 19: 0.08890366186829372, 25: 0.15193175061583622, 2: 0.0025172578770005435, 8: 0.01686699939807551, 14: 0.04117879796758963, 20: 0.09358280196662497, 26: 0.15800902064046968, 32: 0.17710366266692995}
+Bootstrapping for CA135087M847 with payments [2, 8, 14, 20, 26, 32, 38]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+{0: 0, 1: 0.0005021278070872873, 7: 0.012592908226566824, 13: 0.03823745525561894, 19: 0.08890366186829372, 25: 0.15193175061583622, 2: 0.0025172578770005435, 8: 0.01686699939807551, 14: 0.04117879796758963, 20: 0.09358280196662497, 26: 0.15800902064046968, 32: 0.17710366266692995, 38: 0.21751286856859828}
+Bootstrapping for CA135087N837 with payments [2, 8, 14, 20, 26, 32, 38, 44]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+{0: 0, 1: 0.0005021278070872873, 7: 0.012592908226566824, 13: 0.03823745525561894, 19: 0.08890366186829372, 25: 0.15193175061583622, 2: 0.0025172578770005435, 8: 0.01686699939807551, 14: 0.04117879796758963, 20: 0.09358280196662497, 26: 0.15800902064046968, 32: 0.17710366266692995, 38: 0.21751286856859828, 44: 0.09197935156293661}
+Bootstrapping for CA135087P576 with payments [2, 8, 14, 20, 26, 32, 38, 44, 50]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+Bootstrapping for month: 50
+{0: 0, 1: 0.0005021278070872873, 7: 0.012592908226566824, 13: 0.03823745525561894, 19: 0.08890366186829372, 25: 0.15193175061583622, 2: 0.0025172578770005435, 8: 0.01686699939807551, 14: 0.04117879796758963, 20: 0.09358280196662497, 26: 0.15800902064046968, 32: 0.17710366266692995, 38: 0.21751286856859828, 44: 0.09197935156293661, 50: -0.009929918143660873}
+Bootstrapping for CA135087Q491 with payments [2, 8, 14, 20, 26, 32, 38, 44, 50, 56]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+Bootstrapping for month: 50
+Bootstrapping for month: 56
+{0: 0, 1: 0.0005021278070872873, 7: 0.012592908226566824, 13: 0.03823745525561894, 19: 0.08890366186829372, 25: 0.15193175061583622, 2: 0.0025172578770005435, 8: 0.01686699939807551, 14: 0.04117879796758963, 20: 0.09358280196662497, 26: 0.15800902064046968, 32: 0.17710366266692995, 38: 0.21751286856859828, 44: 0.09197935156293661, 50: -0.009929918143660873, 56: 0.021876168787707744}
+January 14 2024.csv
+Bootstrapping for CA135087J546 with payments [1]
+{0: 0, 1: 0.0004969464491968024}
+Bootstrapping for CA135087J967 with payments [1, 7]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+{0: 0, 1: 0.0004969464491968024, 7: 0.01256825766586852}
+Bootstrapping for CA135087K528 with payments [1, 7, 13]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+{0: 0, 1: 0.0004969464491968024, 7: 0.01256825766586852, 13: 0.03819873084024025}
+Bootstrapping for CA135087K940 with payments [1, 7, 13, 19]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+Bootstrapping for month: 19
+{0: 0, 1: 0.0004969464491968024, 7: 0.01256825766586852, 13: 0.03819873084024025, 19: 0.08888045920746089}
+Bootstrapping for CA135087L518 with payments [1, 7, 13, 19, 25]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+Bootstrapping for month: 19
+Bootstrapping for month: 25
+{0: 0, 1: 0.0004969464491968024, 7: 0.01256825766586852, 13: 0.03819873084024025, 19: 0.08888045920746089, 25: 0.15191620800333935}
+Bootstrapping for CA135087L930 with payments [2, 8, 14, 20, 26, 32]
+Bootstrapping for month: 2
+1 7
+Bootstrapping for month: 8
+7 13
+Bootstrapping for month: 14
+13 0
+Bootstrapping for month: 20
+19 0
+Bootstrapping for month: 26
+25 0
+Bootstrapping for month: 32
+{0: 0, 1: 0.0004969464491968024, 7: 0.01256825766586852, 13: 0.03819873084024025, 19: 0.08888045920746089, 25: 0.15191620800333935, 2: 0.002508831651975422, 8: 0.016840003194930474, 14: 0.04113709475102796, 20: 0.09355837811311672, 26: 0.15799285632347293, 32: 0.17702489700363333}
+Bootstrapping for CA135087M847 with payments [2, 8, 14, 20, 26, 32, 38]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+{0: 0, 1: 0.0004969464491968024, 7: 0.01256825766586852, 13: 0.03819873084024025, 19: 0.08888045920746089, 25: 0.15191620800333935, 2: 0.002508831651975422, 8: 0.016840003194930474, 14: 0.04113709475102796, 20: 0.09355837811311672, 26: 0.15799285632347293, 32: 0.17702489700363333, 38: 0.21739583057115214}
+Bootstrapping for CA135087N837 with payments [2, 8, 14, 20, 26, 32, 38, 44]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+{0: 0, 1: 0.0004969464491968024, 7: 0.01256825766586852, 13: 0.03819873084024025, 19: 0.08888045920746089, 25: 0.15191620800333935, 2: 0.002508831651975422, 8: 0.016840003194930474, 14: 0.04113709475102796, 20: 0.09355837811311672, 26: 0.15799285632347293, 32: 0.17702489700363333, 38: 0.21739583057115214, 44: 0.09169605038765748}
+Bootstrapping for CA135087P576 with payments [2, 8, 14, 20, 26, 32, 38, 44, 50]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+Bootstrapping for month: 50
+{0: 0, 1: 0.0004969464491968024, 7: 0.01256825766586852, 13: 0.03819873084024025, 19: 0.08888045920746089, 25: 0.15191620800333935, 2: 0.002508831651975422, 8: 0.016840003194930474, 14: 0.04113709475102796, 20: 0.09355837811311672, 26: 0.15799285632347293, 32: 0.17702489700363333, 38: 0.21739583057115214, 44: 0.09169605038765748, 50: -0.010327076938033218}
+Bootstrapping for CA135087Q491 with payments [2, 8, 14, 20, 26, 32, 38, 44, 50, 56]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+Bootstrapping for month: 50
+Bootstrapping for month: 56
+{0: 0, 1: 0.0004969464491968024, 7: 0.01256825766586852, 13: 0.03819873084024025, 19: 0.08888045920746089, 25: 0.15191620800333935, 2: 0.002508831651975422, 8: 0.016840003194930474, 14: 0.04113709475102796, 20: 0.09355837811311672, 26: 0.15799285632347293, 32: 0.17702489700363333, 38: 0.21739583057115214, 44: 0.09169605038765748, 50: -0.010327076938033218, 56: 0.021459679757913134}
+January 15 2024.csv
+Bootstrapping for CA135087J546 with payments [1]
+{0: 0, 1: 0.0004917654134439245}
+Bootstrapping for CA135087J967 with payments [1, 7]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+{0: 0, 1: 0.0004917654134439245, 7: 0.012543608146812178}
+Bootstrapping for CA135087K528 with payments [1, 7, 13]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+{0: 0, 1: 0.0004917654134439245, 7: 0.012543608146812178, 13: 0.03816000780904013}
+Bootstrapping for CA135087K940 with payments [1, 7, 13, 19]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+Bootstrapping for month: 19
+{0: 0, 1: 0.0004917654134439245, 7: 0.012543608146812178, 13: 0.03816000780904013, 19: 0.0888572568866423}
+Bootstrapping for CA135087L518 with payments [1, 7, 13, 19, 25]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+Bootstrapping for month: 19
+Bootstrapping for month: 25
+{0: 0, 1: 0.0004917654134439245, 7: 0.012543608146812178, 13: 0.03816000780904013, 19: 0.0888572568866423, 25: 0.1519006655067964}
+Bootstrapping for CA135087L930 with payments [2, 8, 14, 20, 26, 32]
+Bootstrapping for month: 2
+1 7
+Bootstrapping for month: 8
+7 13
+Bootstrapping for month: 14
+13 0
+Bootstrapping for month: 20
+19 0
+Bootstrapping for month: 26
+25 0
+Bootstrapping for month: 32
+{0: 0, 1: 0.0004917654134439245, 7: 0.012543608146812178, 13: 0.03816000780904013, 19: 0.0888572568866423, 25: 0.1519006655067964, 2: 0.0025004058690053, 8: 0.016813008090516838, 14: 0.041095393025120136, 20: 0.0935339546175182, 26: 0.15797669212706825, 32: 0.17694613366677964}
+Bootstrapping for CA135087M847 with payments [2, 8, 14, 20, 26, 32, 38]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+{0: 0, 1: 0.0004917654134439245, 7: 0.012543608146812178, 13: 0.03816000780904013, 19: 0.0888572568866423, 25: 0.1519006655067964, 2: 0.0025004058690053, 8: 0.016813008090516838, 14: 0.041095393025120136, 20: 0.0935339546175182, 26: 0.15797669212706825, 32: 0.17694613366677964, 38: 0.21727879689919585}
+Bootstrapping for CA135087N837 with payments [2, 8, 14, 20, 26, 32, 38, 44]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+{0: 0, 1: 0.0004917654134439245, 7: 0.012543608146812178, 13: 0.03816000780904013, 19: 0.0888572568866423, 25: 0.1519006655067964, 2: 0.0025004058690053, 8: 0.016813008090516838, 14: 0.041095393025120136, 20: 0.0935339546175182, 26: 0.15797669212706825, 32: 0.17694613366677964, 38: 0.21727879689919585, 44: 0.09141277109965716}
+Bootstrapping for CA135087P576 with payments [2, 8, 14, 20, 26, 32, 38, 44, 50]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+Bootstrapping for month: 50
+{0: 0, 1: 0.0004917654134439245, 7: 0.012543608146812178, 13: 0.03816000780904013, 19: 0.0888572568866423, 25: 0.1519006655067964, 2: 0.0025004058690053, 8: 0.016813008090516838, 14: 0.041095393025120136, 20: 0.0935339546175182, 26: 0.15797669212706825, 32: 0.17694613366677964, 38: 0.21727879689919585, 44: 0.09141277109965716, 50: -0.01072419787958741}
+Bootstrapping for CA135087Q491 with payments [2, 8, 14, 20, 26, 32, 38, 44, 50, 56]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+Bootstrapping for month: 50
+Bootstrapping for month: 56
+{0: 0, 1: 0.0004917654134439245, 7: 0.012543608146812178, 13: 0.03816000780904013, 19: 0.0888572568866423, 25: 0.1519006655067964, 2: 0.0025004058690053, 8: 0.016813008090516838, 14: 0.041095393025120136, 20: 0.0935339546175182, 26: 0.15797669212706825, 32: 0.17694613366677964, 38: 0.21727879689919585, 44: 0.09141277109965716, 50: -0.01072419787958741, 56: 0.021043227895467677}
+January 16 2024.csv
+Bootstrapping for CA135087J546 with payments [1]
+{0: 0, 1: 0.00048658469978857255}
+Bootstrapping for CA135087J967 with payments [1, 7]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+{0: 0, 1: 0.00048658469978857255, 7: 0.01251895966930967}
+Bootstrapping for CA135087K528 with payments [1, 7, 13]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+{0: 0, 1: 0.00048658469978857255, 7: 0.01251895966930967, 13: 0.03800977555044267}
+Bootstrapping for CA135087K940 with payments [1, 7, 13, 19]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+Bootstrapping for month: 19
+{0: 0, 1: 0.00048658469978857255, 7: 0.01251895966930967, 13: 0.03800977555044267, 19: 0.08849998407571191}
+Bootstrapping for CA135087L518 with payments [1, 7, 13, 19, 25]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+Bootstrapping for month: 19
+Bootstrapping for month: 25
+{0: 0, 1: 0.00048658469978857255, 7: 0.01251895966930967, 13: 0.03800977555044267, 19: 0.08849998407571191, 25: 0.15099007763667008}
+Bootstrapping for CA135087L930 with payments [1, 7, 13, 19, 25, 31]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+Bootstrapping for month: 19
+Bootstrapping for month: 25
+Bootstrapping for month: 31
+{0: 0, 1: 0.00048658469978857255, 7: 0.01251895966930967, 13: 0.03800977555044267, 19: 0.08849998407571191, 25: 0.15099007763667008, 31: 0.17079097572660337}
+Bootstrapping for CA135087M847 with payments [2, 8, 14, 20, 26, 32, 38]
+Bootstrapping for month: 2
+1 7
+Bootstrapping for month: 8
+7 13
+Bootstrapping for month: 14
+13 19
+Bootstrapping for month: 20
+19 0
+Bootstrapping for month: 26
+25 0
+Bootstrapping for month: 32
+31 0
+Bootstrapping for month: 38
+{0: 0, 1: 0.00048658469978857255, 7: 0.01251895966930967, 13: 0.03800977555044267, 19: 0.08849998407571191, 25: 0.15099007763667008, 31: 0.17079097572660337, 2: 0.0024919805280420888, 8: 0.016767428982831838, 14: 0.046424810304654215, 20: 0.09315787797443359, 26: 0.15702968074213688, 32: 0.17630036204036478, 38: 0.21615081406985434}
+Bootstrapping for CA135087N837 with payments [2, 8, 14, 20, 26, 32, 38, 44]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+{0: 0, 1: 0.00048658469978857255, 7: 0.01251895966930967, 13: 0.03800977555044267, 19: 0.08849998407571191, 25: 0.15099007763667008, 31: 0.17079097572660337, 2: 0.0024919805280420888, 8: 0.016767428982831838, 14: 0.046424810304654215, 20: 0.09315787797443359, 26: 0.15702968074213688, 32: 0.17630036204036478, 38: 0.21615081406985434, 44: 0.09001729628784466}
+Bootstrapping for CA135087P576 with payments [2, 8, 14, 20, 26, 32, 38, 44, 50]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+Bootstrapping for month: 50
+{0: 0, 1: 0.00048658469978857255, 7: 0.01251895966930967, 13: 0.03800977555044267, 19: 0.08849998407571191, 25: 0.15099007763667008, 31: 0.17079097572660337, 2: 0.0024919805280420888, 8: 0.016767428982831838, 14: 0.046424810304654215, 20: 0.09315787797443359, 26: 0.15702968074213688, 32: 0.17630036204036478, 38: 0.21615081406985434, 44: 0.09001729628784466, 50: -0.012346327468071802}
+Bootstrapping for CA135087Q491 with payments [2, 8, 14, 20, 26, 32, 38, 44, 50, 56]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+Bootstrapping for month: 50
+Bootstrapping for month: 56
+{0: 0, 1: 0.00048658469978857255, 7: 0.01251895966930967, 13: 0.03800977555044267, 19: 0.08849998407571191, 25: 0.15099007763667008, 31: 0.17079097572660337, 2: 0.0024919805280420888, 8: 0.016767428982831838, 14: 0.046424810304654215, 20: 0.09315787797443359, 26: 0.15702968074213688, 32: 0.17630036204036478, 38: 0.21615081406985434, 44: 0.09001729628784466, 50: -0.012346327468071802, 56: 0.018321188933393115}
+January 17 2024.csv
+Bootstrapping for CA135087J546 with payments [1]
+{0: 0, 1: 0.00047311635141391564}
+Bootstrapping for CA135087J967 with payments [1, 7]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+{0: 0, 1: 0.00047311635141391564, 7: 0.01267179702166069}
+Bootstrapping for CA135087K528 with payments [1, 7, 13]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+{0: 0, 1: 0.00047311635141391564, 7: 0.01267179702166069, 13: 0.039421541409773164}
+Bootstrapping for CA135087L518 with payments [1, 7, 13, 19, 25]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+Bootstrapping for month: 19
+13 0
+Bootstrapping for month: 25
+{0: 0, 1: 0.00047311635141391564, 7: 0.01267179702166069, 13: 0.039421541409773164, 19: 0.05761609898351462, 25: 0.15635055191234745}
+Bootstrapping for CA135087M847 with payments [1, 7, 13, 19, 25, 31, 37]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+Bootstrapping for month: 19
+Bootstrapping for month: 25
+Bootstrapping for month: 31
+25 0
+Bootstrapping for month: 37
+{0: 0, 1: 0.00047311635141391564, 7: 0.01267179702166069, 13: 0.039421541409773164, 19: 0.05761609898351462, 25: 0.15635055191234745, 31: 0.19387468437131083, 37: 0.22218127258542414}
+Bootstrapping for CA135087N837 with payments [2, 8, 14, 20, 26, 32, 38, 44]
+Bootstrapping for month: 2
+1 7
+Bootstrapping for month: 8
+7 13
+Bootstrapping for month: 14
+13 19
+Bootstrapping for month: 20
+19 0
+Bootstrapping for month: 26
+25 0
+Bootstrapping for month: 32
+31 0
+Bootstrapping for month: 38
+37 0
+Bootstrapping for month: 44
+{0: 0, 1: 0.00047311635141391564, 7: 0.01267179702166069, 13: 0.039421541409773164, 19: 0.05761609898351462, 25: 0.15635055191234745, 31: 0.19387468437131083, 37: 0.22218127258542414, 2: 0.0025062297964550447, 8: 0.01713008775301277, 14: 0.04245396767206341, 20: 0.060648525245804864, 26: 0.16260457398884134, 32: 0.20012870644780473, 38: 0.22818617184448967, 44: 0.10496255209786459}
+Bootstrapping for CA135087P576 with payments [2, 8, 14, 20, 26, 32, 38, 44, 50]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+Bootstrapping for month: 50
+{0: 0, 1: 0.00047311635141391564, 7: 0.01267179702166069, 13: 0.039421541409773164, 19: 0.05761609898351462, 25: 0.15635055191234745, 31: 0.19387468437131083, 37: 0.22218127258542414, 2: 0.0025062297964550447, 8: 0.01713008775301277, 14: 0.04245396767206341, 20: 0.060648525245804864, 26: 0.16260457398884134, 32: 0.20012870644780473, 38: 0.22818617184448967, 44: 0.10496255209786459, 50: 0.006898965228840805}
+Bootstrapping for CA135087Q491 with payments [2, 8, 14, 20, 26, 32, 38, 44, 50, 56]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+Bootstrapping for month: 50
+Bootstrapping for month: 56
+{0: 0, 1: 0.00047311635141391564, 7: 0.01267179702166069, 13: 0.039421541409773164, 19: 0.05761609898351462, 25: 0.15635055191234745, 31: 0.19387468437131083, 37: 0.22218127258542414, 2: 0.0025062297964550447, 8: 0.01713008775301277, 14: 0.04245396767206341, 20: 0.060648525245804864, 26: 0.16260457398884134, 32: 0.20012870644780473, 38: 0.22818617184448967, 44: 0.10496255209786459, 50: 0.006898965228840805, 56: 0.04332747968965019}
+January 18 2024.csv
+Bootstrapping for CA135087J546 with payments [1]
+{0: 0, 1: 0.00046793679697821635}
+Bootstrapping for CA135087J967 with payments [1, 7]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+{0: 0, 1: 0.00046793679697821635, 7: 0.012883863538200561}
+Bootstrapping for CA135087K528 with payments [1, 7, 13]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+{0: 0, 1: 0.00046793679697821635, 7: 0.012883863538200561, 13: 0.040499813161191715}
+Bootstrapping for CA135087K940 with payments [1, 7, 13, 19]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+Bootstrapping for month: 19
+{0: 0, 1: 0.00046793679697821635, 7: 0.012883863538200561, 13: 0.040499813161191715, 19: 0.09447750004595021}
+Bootstrapping for CA135087L518 with payments [1, 7, 13, 19, 25]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+Bootstrapping for month: 19
+Bootstrapping for month: 25
+{0: 0, 1: 0.00046793679697821635, 7: 0.012883863538200561, 13: 0.040499813161191715, 19: 0.09447750004595021, 25: 0.16149999754583505}
+Bootstrapping for CA135087L930 with payments [1, 7, 13, 19, 25, 31]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+Bootstrapping for month: 19
+Bootstrapping for month: 25
+Bootstrapping for month: 31
+{0: 0, 1: 0.00046793679697821635, 7: 0.012883863538200561, 13: 0.040499813161191715, 19: 0.09447750004595021, 25: 0.16149999754583505, 31: 0.18661453486536017}
+Bootstrapping for CA135087M847 with payments [1, 7, 13, 19, 25, 31, 37]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+Bootstrapping for month: 19
+Bootstrapping for month: 25
+Bootstrapping for month: 31
+Bootstrapping for month: 37
+{0: 0, 1: 0.00046793679697821635, 7: 0.012883863538200561, 13: 0.040499813161191715, 19: 0.09447750004595021, 25: 0.16149999754583505, 31: 0.18661453486536017, 37: 0.23229220100295195}
+Bootstrapping for CA135087N837 with payments [2, 8, 14, 20, 26, 32, 38, 44]
+Bootstrapping for month: 2
+1 7
+Bootstrapping for month: 8
+7 13
+Bootstrapping for month: 14
+13 19
+Bootstrapping for month: 20
+19 0
+Bootstrapping for month: 26
+25 0
+Bootstrapping for month: 32
+31 0
+Bootstrapping for month: 38
+37 0
+Bootstrapping for month: 44
+{0: 0, 1: 0.00046793679697821635, 7: 0.012883863538200561, 13: 0.040499813161191715, 19: 0.09447750004595021, 25: 0.16149999754583505, 31: 0.18661453486536017, 37: 0.23229220100295195, 2: 0.002537257920515274, 8: 0.017486521808699085, 14: 0.04949609430865146, 20: 0.09945000004836864, 26: 0.16795999744766846, 32: 0.19263435857069436, 38: 0.23857036859762631, 44: 0.11884797536069543}
+Bootstrapping for CA135087P576 with payments [2, 8, 14, 20, 26, 32, 38, 44, 50]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+Bootstrapping for month: 50
+{0: 0, 1: 0.00046793679697821635, 7: 0.012883863538200561, 13: 0.040499813161191715, 19: 0.09447750004595021, 25: 0.16149999754583505, 31: 0.18661453486536017, 37: 0.23229220100295195, 2: 0.002537257920515274, 8: 0.017486521808699085, 14: 0.04949609430865146, 20: 0.09945000004836864, 26: 0.16795999744766846, 32: 0.19263435857069436, 38: 0.23857036859762631, 44: 0.11884797536069543, 50: 0.0245855409192914}
+Bootstrapping for CA135087Q491 with payments [2, 8, 14, 20, 26, 32, 38, 44, 50, 56]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+Bootstrapping for month: 50
+Bootstrapping for month: 56
+{0: 0, 1: 0.00046793679697821635, 7: 0.012883863538200561, 13: 0.040499813161191715, 19: 0.09447750004595021, 25: 0.16149999754583505, 31: 0.18661453486536017, 37: 0.23229220100295195, 2: 0.002537257920515274, 8: 0.017486521808699085, 14: 0.04949609430865146, 20: 0.09945000004836864, 26: 0.16795999744766846, 32: 0.19263435857069436, 38: 0.23857036859762631, 44: 0.11884797536069543, 50: 0.0245855409192914, 56: 0.06474204385258671}
+January 19 2024.csv
+Bootstrapping for CA135087J546 with payments [1]
+{0: 0, 1: 0.0004627575644559603}
+Bootstrapping for CA135087J967 with payments [1, 7]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+{0: 0, 1: 0.0004627575644559603, 7: 0.012859200679475671}
+Bootstrapping for CA135087K528 with payments [1, 7, 13]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+{0: 0, 1: 0.0004627575644559603, 7: 0.012859200679475671, 13: 0.04046100779339015}
+Bootstrapping for CA135087K940 with payments [1, 7, 13, 19]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+Bootstrapping for month: 19
+{0: 0, 1: 0.0004627575644559603, 7: 0.012859200679475671, 13: 0.04046100779339015, 19: 0.09445421556101509}
+Bootstrapping for CA135087L518 with payments [1, 7, 13, 19, 25]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+Bootstrapping for month: 19
+Bootstrapping for month: 25
+{0: 0, 1: 0.0004627575644559603, 7: 0.012859200679475671, 13: 0.04046100779339015, 19: 0.09445421556101509, 25: 0.16148438338596544}
+Bootstrapping for CA135087L930 with payments [1, 7, 13, 19, 25, 31]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+Bootstrapping for month: 19
+Bootstrapping for month: 25
+Bootstrapping for month: 31
+{0: 0, 1: 0.0004627575644559603, 7: 0.012859200679475671, 13: 0.04046100779339015, 19: 0.09445421556101509, 25: 0.16148438338596544, 31: 0.18653778494235213}
+Bootstrapping for CA135087M847 with payments [1, 7, 13, 19, 25, 31, 37]
+Bootstrapping for month: 1
+Bootstrapping for month: 7
+Bootstrapping for month: 13
+Bootstrapping for month: 19
+Bootstrapping for month: 25
+Bootstrapping for month: 31
+Bootstrapping for month: 37
+{0: 0, 1: 0.0004627575644559603, 7: 0.012859200679475671, 13: 0.04046100779339015, 19: 0.09445421556101509, 25: 0.16148438338596544, 31: 0.18653778494235213, 37: 0.23217748265075566}
+Bootstrapping for CA135087N837 with payments [2, 8, 14, 20, 26, 32, 38, 44]
+Bootstrapping for month: 2
+1 7
+Bootstrapping for month: 8
+7 13
+Bootstrapping for month: 14
+13 19
+Bootstrapping for month: 20
+19 0
+Bootstrapping for month: 26
+25 0
+Bootstrapping for month: 32
+31 0
+Bootstrapping for month: 38
+37 0
+Bootstrapping for month: 44
+{0: 0, 1: 0.0004627575644559603, 7: 0.012859200679475671, 13: 0.04046100779339015, 19: 0.09445421556101509, 25: 0.16148438338596544, 31: 0.18653778494235213, 37: 0.23217748265075566, 2: 0.0025288314169592454, 8: 0.017459501865128086, 14: 0.04945987575466097, 20: 0.09942549006422641, 26: 0.16794375872140405, 32: 0.19255513284371834, 38: 0.23845254974942473, 44: 0.11856259066551972}
+Bootstrapping for CA135087P576 with payments [2, 8, 14, 20, 26, 32, 38, 44, 50]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+Bootstrapping for month: 50
+{0: 0, 1: 0.0004627575644559603, 7: 0.012859200679475671, 13: 0.04046100779339015, 19: 0.09445421556101509, 25: 0.16148438338596544, 31: 0.18653778494235213, 37: 0.23217748265075566, 2: 0.0025288314169592454, 8: 0.017459501865128086, 14: 0.04945987575466097, 20: 0.09942549006422641, 26: 0.16794375872140405, 32: 0.19255513284371834, 38: 0.23845254974942473, 44: 0.11856259066551972, 50: 0.0241850786711313}
+Bootstrapping for CA135087Q491 with payments [2, 8, 14, 20, 26, 32, 38, 44, 50, 56]
+Bootstrapping for month: 2
+Bootstrapping for month: 8
+Bootstrapping for month: 14
+Bootstrapping for month: 20
+Bootstrapping for month: 26
+Bootstrapping for month: 32
+Bootstrapping for month: 38
+Bootstrapping for month: 44
+Bootstrapping for month: 50
+Bootstrapping for month: 56
+{0: 0, 1: 0.0004627575644559603, 7: 0.012859200679475671, 13: 0.04046100779339015, 19: 0.09445421556101509, 25: 0.16148438338596544, 31: 0.18653778494235213, 37: 0.23217748265075566, 2: 0.0025288314169592454, 8: 0.017459501865128086, 14: 0.04945987575466097, 20: 0.09942549006422641, 26: 0.16794375872140405, 32: 0.19255513284371834, 38: 0.23845254974942473, 44: 0.11856259066551972, 50: 0.0241850786711313, 56: 0.06432171169289645}
+January 20 2024.csv
+Bootstrapping for CA135087J967 with payments [1, 7]
+Bootstrapping for month: 1
+0 0

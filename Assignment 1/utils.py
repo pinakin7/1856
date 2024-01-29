@@ -57,24 +57,16 @@ def get_payments(year):
     return payments
 
 
-def get_bonds(df):
-    start_date = pd.to_datetime('2024-02-05', format="%Y-%m-%d")
-    end_date = start_date + pd.DateOffset(years=5)
-    df = df[(df['Maturity Date'] > start_date) & (df['Maturity Date'] <= end_date)]
+def get_bonds(data):
+    data["Maturity Date"] = pd.to_datetime(data["Maturity Date"], format="mixed").dt.strftime('%Y-%m-%d')
+    data["Issue Date"] = pd.to_datetime(data["Issue Date"], format="mixed").dt.strftime('%Y-%m-%d')
 
-    df["Par Value"] = 1000
-    df["Coupon Payment"] = df["Par Value"] * df["Coupon"] / 200
+    data1 = data[pd.to_datetime(data["Maturity Date"], format="mixed").dt.month == 3]
+    data2 = data[pd.to_datetime(data["Maturity Date"], format="mixed").dt.month == 9]
 
-    number_days_last_pay = (start_date - pd.to_datetime("2023-9-01", format="%Y-%m-%d")).days
-    df["Dirty Price"] = (number_days_last_pay / 365) * 2 * df["Coupon"] + df["Bond Price"]
-    df["Compounding Periods"] = ((df["Maturity Date"] - df["Issue Date"]).dt.days / 360) * 2
-    df["Compounding Periods"] = df["Compounding Periods"].apply(np.ceil)
+    data = pd.concat([data1, data2], axis=0, ignore_index=True)
 
-    df["YTM"] = get_ytm(df)
-    df["Days to Maturity"] = (df['Maturity Date'] - start_date).dt.days
-    df["Months to Maturity"] = df["Days to Maturity"] / 30
-
-    return df
+    return data
 
 
 def binary_search(lst, target):
