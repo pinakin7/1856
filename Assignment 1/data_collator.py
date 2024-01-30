@@ -1,5 +1,6 @@
 import logging
 import os
+import shutil
 
 import numpy as np
 import pandas as pd
@@ -36,5 +37,15 @@ def process_csv_files(base_dir, save_dir):
 
         df.to_csv(os.path.join(base_dir, f"{save_dir}\\{file_name}"), index=False)
 
+def clear_directory(directory):
+    for item in os.listdir(directory):
+        item_path = os.path.join(directory, item)
+        if os.path.isfile(item_path) or os.path.islink(item_path):
+            os.unlink(item_path)  # Removes files and symbolic links
+        elif os.path.isdir(item_path):
+            shutil.rmtree(item_path)  # Removes directories and their contents
+    print(f"All contents of '{directory}' have been removed.")
+
 if __name__ == "__main__":
+    clear_directory("data/final")
     process_csv_files(base_dir="data", save_dir="final")
